@@ -1,0 +1,125 @@
+* {
+  font-family:verdana,sans-serif;
+  font-size  :14pt;
+}
+
+body {
+  width     :700px;
+  margin    :20px auto;
+  background:#f0f2f4;
+  border    :1px solid #888;
+}
+
+/* если окно браузера больше максимальной ширины сайта,
+повяляется скроллбар, тогда отменяем сдвиг сайта */
+@media screen and (min-width: 500px) { 
+  html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+  }
+}
+
+html {
+  background:#fff
+}
+
+img {
+  border            :1px solid black;
+  margin-right      :15px;
+  -moz-box-shadow   :2px 2px 2px #888;
+  -webkit-box-shadow:2px 2px 2px #888;
+  box-shadow        :2px 2px 2px #888;
+}
+
+li a, .button {
+  text-decoration:none;
+}
+
+li a:hover, .button:hover {
+  color:green;
+}
+
+.appname {
+  text-align :center;
+  background :#33cc00;
+  color      :white;
+  font-family:helvetica;
+  font-size  :20pt;
+  padding    :4px;
+}
+
+.fieldname {
+  float:left;
+  width:120px;
+}
+
+.main {
+  margin-left:40px;
+}
+
+.info {
+  background :#33cc00;
+  color      :white;
+	border     :1px solid green;
+	padding    :5px 10px;
+	margin-left:40px;
+}
+
+.menu li, .button {
+  display           :inline;
+  padding           :4px 6px;
+  border            :1px solid #777;
+  background        :#ddd;
+  color             :#d04;
+  margin-right      :8px;
+	border-radius     :5px;
+	-moz-box-shadow   :2px 2px 2px #888;
+	-webkit-box-shadow:2px 2px 2px #888;
+	box-shadow        :2px 2px 2px #888;
+}
+
+.subhead {
+  font-weight:bold;
+}
+
+.taken, .error {
+  color:red;
+  text-decoration: none;
+}
+
+.available {
+  color:green;
+}
+
+.queryFriend {
+  color:#33cc00;
+}
+
+.letter {
+  color:#3300cc;
+}
+
+.whisper {
+  font-style:italic;
+  color     :#006600;
+}
+
+.photo {
+  position: relative;
+}
+
+.butUnderPhoto {
+  position: absolute;
+  left: 49%;
+  top: 99%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.userslogin {
+  color: #3366cc;
+  text-decoration: none;
+}
