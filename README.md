@@ -11,7 +11,7 @@ Contains simple functions:
 Information is stored in a database on the server and is not encrypted!
 There is no mobile version
 
-You can visit it by ref https://aistj.000webhostapp.com/index.php
+You can visit it by ref https://aistj.000webhostapp.com/index.php 
 
 <p align="left">
   <img src="Снимок.PNG" width="350"/><br><br>
